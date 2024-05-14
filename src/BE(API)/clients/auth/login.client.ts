@@ -4,7 +4,6 @@ import { LoginRequest } from "./contracts/login.request"
 
 
 export class LoginClient {
-    // privateCredentials: JSON | undefined
 
     public async loginUser(
         data: LoginRequest
