@@ -1,6 +1,6 @@
 import { expect, test} from '@playwright/test'
 
-test('should show message: email not valid', async function({page}) {
+test('should not log in, should show message: email and password no matched', async function({page}) {
 
     await page.goto(`${process.env.URL}/en/login`);
 
