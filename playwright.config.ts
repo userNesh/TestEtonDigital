@@ -22,7 +22,7 @@ const config: PlaywrightTestConfig = {
     ],
 
     use: {
-        headless:false,
+        headless:true,
         trace:'on',
         baseURL: process.env.URL!,
         extraHTTPHeaders: {
